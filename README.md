@@ -51,28 +51,28 @@ Escolas e espaços educativos
 <table>
     <tr> 
         <td align="center"> 
-            <img src="" width="120"/>
+            <img src="https://github.com/jvopinho.png" width="120"/>
             <br> 
             <b><a href="https://github.com/jvopinho">João Pinho</a></b>
             <br> 
             RA 2767074
         </td>
         <td align="center"> 
-            <img src="" width="120"/>
+            <img src="https://github.com/LFelipeRamos.png" width="120"/>
             <br> 
             <b><a href="https://github.com/LFelipeRamos">Luiz Felipe</a></b>
             <br> 
             RA 2767112
         </td>
         <td align="center"> 
-            <img src="" width="120"/>
+            <img src="https://github.com/peluca2007.png" width="120"/>
             <br> 
-            <b><a href="https://github.com/jvopinho">Pedro Lucas</a></b>
+            <b><a href="https://github.com/peluca2007">Pedro Lucas</a></b>
             <br> 
-            RA N/A
+            RA 2767147
         </td>
         <td align="center"> 
-            <img src="" width="120"/>
+            <img src="https://github.com/ianderichalski.png" width="120"/>
             <br> 
             <b><a href="https://github.com/ianderichalski">Iandê Richalski</a></b>
             <br> 
