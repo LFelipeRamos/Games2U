@@ -28,7 +28,7 @@ O objetivo do projeto é oferecer uma solução prática e acessível de aluguel
 
 Simples, rápido e acessível.
 
-👥 Público-Alvo
+### 👥 Público-Alvo
 
 O projeto é voltado para:
 
@@ -40,7 +40,7 @@ Cafés e bares temáticos
 
 Escolas e espaços educativos
 
-## 🚀 Tecnologias utilizadas
+### 🚀 Tecnologias utilizadas
 
 - NextJS
 - TypeScript + NodeJS
