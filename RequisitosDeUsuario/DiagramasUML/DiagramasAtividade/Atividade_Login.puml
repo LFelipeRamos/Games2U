@@ -1,0 +1,33 @@
+@startuml "Diagrama de Atividade - Login"
+
+|Usuário|
+
+start
+
+:Informar Email;
+
+:Informar Senha;
+
+|Sistema|
+
+:Validar Credenciais;
+
+if (Credenciais válidas?) then (Sim)
+
+:Autenticar Usuário;
+
+|Usuário|
+
+:Acessar Sistema;
+
+stop
+
+else (Não)
+
+:Exibir Mensagem de Erro;
+
+stop
+
+endif
+
+@enduml

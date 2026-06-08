@@ -1,0 +1,74 @@
+@startuml "Diagrama de Casos de Uso - Games2U"
+left to right direction
+
+actor Usuario
+actor Administrador
+actor Entregador
+actor "Gateway de Pagamento" as Gateway
+
+rectangle Games2U {
+
+  usecase "Cadastrar-se" as UC01
+  usecase "Fazer Login" as UC02 #LightBlue
+
+  usecase "Visualizar Catálogo" as UC03
+  usecase "Buscar Jogos" as UC04
+  usecase "Visualizar Detalhes" as UC05
+
+  usecase "Gerenciar Carrinho" as UC06
+
+  usecase "Alugar Jogos" as UC07 #LightBlue
+
+  usecase "Assinar Plano Mensal" as UC08
+
+  usecase "Calcular Valor" as UC09
+  usecase "Processar Pagamento" as UC10
+  usecase "Selecionar Endereço" as UC11
+
+  usecase "Acompanhar Pedido" as UC12
+
+  usecase "Agendar Devolução" as UC13 #LightBlue
+  usecase "Escolher Forma de Devolução" as UC14
+
+  usecase "Avaliar Jogos" as UC15
+
+  usecase "Gerenciar Jogos" as UC16
+  usecase "Gerenciar Estoque" as UC17
+  usecase "Visualizar Pedidos" as UC18
+  usecase "Gerenciar Hubs Logísticos" as UC19
+
+  usecase "Visualizar Entregas" as UC20
+  usecase "Atualizar Status da Entrega" as UC21
+}
+
+Usuario --> UC01
+Usuario --> UC02
+Usuario --> UC03
+Usuario --> UC04
+Usuario --> UC05
+Usuario --> UC06
+Usuario --> UC07
+Usuario --> UC08
+Usuario --> UC12
+Usuario --> UC13
+Usuario --> UC15
+
+Administrador --> UC16
+Administrador --> UC17
+Administrador --> UC18
+Administrador --> UC19
+
+Entregador --> UC20
+Entregador --> UC21
+
+Gateway --> UC10
+
+UC07 ..> UC09 : <<include>>
+UC07 ..> UC10 : <<include>>
+UC07 ..> UC11 : <<include>>
+
+UC13 ..> UC14 : <<include>>
+
+UC06 ..> UC03 : <<include>>
+
+@enduml
