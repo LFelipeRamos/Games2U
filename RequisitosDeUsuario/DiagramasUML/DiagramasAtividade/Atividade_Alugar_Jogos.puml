@@ -1,0 +1,47 @@
+@startuml "Diagrama de Atividade - Alugar Jogos"
+
+|Usuário|
+
+start
+
+:Selecionar Jogos;
+
+:Definir Período de Aluguel;
+
+:Selecionar Endereço;
+
+:Escolher Forma de Pagamento;
+
+|Sistema|
+
+:Calcular Valor do Aluguel;
+
+:Enviar Dados para Pagamento;
+
+|Gateway de Pagamento|
+
+:Processar Pagamento;
+
+if (Pagamento aprovado?) then (Sim)
+
+|Sistema|
+
+:Registrar Pedido;
+
+:Atualizar Estoque;
+
+:Enviar Confirmação;
+
+stop
+
+else (Não)
+
+|Sistema|
+
+:Informar Falha no Pagamento;
+
+stop
+
+endif
+
+@enduml

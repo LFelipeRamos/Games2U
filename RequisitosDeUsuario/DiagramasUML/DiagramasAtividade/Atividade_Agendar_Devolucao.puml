@@ -1,0 +1,37 @@
+@startuml "Diagrama de Atividade - Agendar Devolução"
+
+|Usuário|
+
+start
+
+:Selecionar Pedido;
+
+:Escolher Data de Devolução;
+
+:Escolher Forma de Devolução;
+
+|Sistema|
+
+:Verificar Disponibilidade;
+
+if (Data disponível?) then (Sim)
+
+:Registrar Agendamento;
+
+:Enviar Confirmação;
+
+stop
+
+else (Não)
+
+:Solicitar Nova Data;
+
+|Usuário|
+
+:Selecionar Nova Data;
+
+stop
+
+endif
+
+@enduml
