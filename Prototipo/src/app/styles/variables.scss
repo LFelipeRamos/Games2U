@@ -1,0 +1,34 @@
+// PRIMARY
+$primary: #7c3aed;
+$primary-light: #8b5cf6;
+$primary-dark: #6d28d9;
+
+// BACKGROUNDS
+$background: #f5f3ff;
+$surface: #ffffff;
+$surface-secondary: #ede9fe;
+
+// TEXT
+$text-primary: #1e1b4b;
+$text-secondary: #6b7280;
+$text-light: #ffffff;
+
+// STATUS
+$warning: #f59e0b;
+
+// BORDERS
+$border: rgba(139, 92, 246, 0.08);
+
+// EFFECTS
+$shadow:
+  0 15px 40px rgba(124, 58, 237, 0.08);
+
+$glass:
+  rgba(255, 255, 255, 0.7);
+
+// GRADIENTS
+$primary-gradient: linear-gradient(
+  to right,
+  $primary,
+  $primary-light
+);

@@ -1,0 +1,6 @@
+
+@use "../styles/variables" as *;
+main{
+  background:$background;
+  color:$text;
+}
