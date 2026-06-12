@@ -1,3 +1,5 @@
+"use client"
+
 import styles from "./page.module.scss";
 import {
   Search,
@@ -7,6 +9,7 @@ import {
 } from "lucide-react";
 
 import { games } from "@/data/games";
+import Link from "next/link";
 
 export default function HomePage() {
   return (
@@ -27,7 +30,9 @@ export default function HomePage() {
 
         <div className={styles.actions}>
           <ShoppingCart size={22} />
-          <User size={22} />
+          <Link href="/login">
+            <User size={22} />
+          </Link>
         </div>
       </header>
 
@@ -74,6 +79,7 @@ export default function HomePage() {
             <div
               key={game.id}
               className={styles.gameCard}
+              onClick={() => window.location.href = `/games/${game.id}`}
             >
               <img
                 src={game.image}
@@ -93,7 +99,7 @@ export default function HomePage() {
                 <div className={styles.footer}>
                   <strong>{game.rentalPrices.day.toFixed(2)}</strong>
 
-                  <button>Alugar</button>
+                  <button onClick={() => window.location.href = `/rent/${game.id}`}>Alugar</button>
                 </div>
               </div>
             </div>
