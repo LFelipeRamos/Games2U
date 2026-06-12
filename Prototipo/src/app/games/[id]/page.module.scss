@@ -1,6 +1,233 @@
+@use "../../styles/variables" as *;
 
-@use "../styles/variables" as *;
-main{
-  background:$background;
-  color:$text;
+.container {
+  min-height: 100vh;
+  background: $background;
+  padding: 3rem 8%;
+}
+
+.wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.navigation {
+  margin-bottom: 2rem;
+}
+
+.backButton {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+
+  text-decoration: none;
+
+  color: $primary;
+  font-weight: 600;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 550px 1fr;
+  gap: 4rem;
+}
+
+.imageContainer {
+  position: relative;
+
+  height: 650px;
+
+  border-radius: 32px;
+  overflow: hidden;
+
+  box-shadow: $shadow;
+
+  img {
+    object-fit: cover;
+  }
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.category {
+  width: fit-content;
+
+  background: rgba(124,58,237,.12);
+
+  color: $primary;
+
+  padding: .6rem 1rem;
+
+  border-radius: 999px;
+
+  font-weight: 600;
+}
+
+.info h1 {
+  font-size: 4rem;
+  margin-top: 1rem;
+  color: $text-primary;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+
+  margin-top: 1rem;
+
+  color: #f59e0b;
+
+  font-weight: 600;
+}
+
+.description {
+  margin-top: 2rem;
+
+  color: $text-secondary;
+  line-height: 1.8;
+
+  font-size: 1.05rem;
+}
+
+.attributes {
+  display: flex;
+  gap: 1rem;
+
+  margin-top: 2rem;
+}
+
+.attribute {
+  flex: 1;
+
+  background: white;
+
+  border-radius: 24px;
+
+  padding: 1.2rem;
+
+  box-shadow: $shadow;
+
+  display: flex;
+  gap: 1rem;
+
+  svg {
+    color: $primary;
+  }
+
+  span {
+    display: block;
+    color: $text-secondary;
+    font-size: .85rem;
+  }
+
+  strong {
+    color: $text-primary;
+  }
+}
+
+.priceCard {
+  margin-top: 2rem;
+
+  background: white;
+
+  border-radius: 24px;
+
+  padding: 2rem;
+
+  box-shadow: $shadow;
+
+  span {
+    color: $text-secondary;
+  }
+
+  h2 {
+    margin-top: .5rem;
+
+    color: $primary-dark;
+    font-size: 3rem;
+  }
+
+  small {
+    font-size: 1rem;
+    color: $text-secondary;
+  }
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+
+  margin-top: 2rem;
+}
+
+.primaryButton {
+  flex: 1;
+
+  height: 60px;
+
+  background: $primary-gradient;
+
+  color: white;
+  text-decoration: none;
+
+  border-radius: 18px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+
+  font-weight: 600;
+}
+
+.secondaryButton {
+  width: 180px;
+
+  height: 60px;
+
+  border-radius: 18px;
+
+  text-decoration: none;
+
+  background: white;
+
+  color: $primary;
+
+  box-shadow: $shadow;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 600;
+}
+
+@media (max-width: 1100px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+
+  .imageContainer {
+    height: 500px;
+  }
+
+  .info h1 {
+    font-size: 3rem;
+  }
+
+  .attributes {
+    flex-direction: column;
+  }
+
+  .actions {
+    flex-direction: column;
+  }
+
+  .secondaryButton {
+    width: 100%;
+  }
 }
