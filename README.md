@@ -46,6 +46,23 @@ Escolas e espaços educativos
 - TypeScript + NodeJS
 - SCSS
 
+### 🚀 Como rodar
+Obs.: Certifique-se que o NodeJS está instalado
+
+```sh
+# 1
+cd Prototipo
+
+# 2
+npm install
+
+# 3
+npm run build
+
+# 4
+npm run start
+```
+
 ## 👥 Integrantes
 
 <table>
