@@ -76,6 +76,12 @@ npm run start
 - [Branch.md - Integração Contínua (Atividade 09)](./branch.md)
 - [Protótipo / Front-end](./Prototipo)
 
+## 🎥 Vídeo de Apresentação
+
+O vídeo abaixo apresenta a proposta, funcionalidades e objetivos do projeto Games2U:
+
+[Assistir ao vídeo de apresentação](https://drive.google.com/file/d/1WzXliyyfp0Z8HzLJdSZtDgQErMfyEdF_/view?usp=sharing)
+
 ## 👥 Integrantes
 
 <table>
