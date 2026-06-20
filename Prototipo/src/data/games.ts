@@ -10,7 +10,7 @@ export const games: Game[] = [
       "Expanda sua colônia, negocie recursos e domine a ilha de Catan.",
 
     image:
-      "https://images.unsplash.com/photo-1528605248644-14dd04022da1?w=1200",
+      "https://gamerview.com.br/wp-content/uploads/2023/03/review_catan_console_edition_gamerview_img02-1024x576.jpg",
 
     players: "3-4",
     duration: "90 min",
@@ -34,7 +34,7 @@ export const games: Game[] = [
       "Construa rotas ferroviárias e conecte cidades pelo mapa.",
 
     image:
-      "https://images.unsplash.com/photo-1511882150382-421056c89033?w=1200",
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/store/software/switch/70010000077436/326d4b297eccf8fe878ccd5bf37fa4fb1ccaf580fdd3e40b3c6cca57496bf966",
 
     players: "2-5",
     duration: "60 min",
@@ -58,7 +58,7 @@ export const games: Game[] = [
       "Use sua criatividade para interpretar cartas ilustradas.",
 
     image:
-      "https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?w=1200",
+      "https://lojaleiturinha.vtexassets.com/arquivos/ids/160974-800-800?v=638585560943670000&width=800&height=800&aspect=true",
 
     players: "3-6",
     duration: "30 min",
@@ -82,7 +82,7 @@ export const games: Game[] = [
       "O clássico jogo de cartas para toda a família.",
 
     image:
-      "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1200",
+      "https://static.fatimacrianca.com.br/public/fatimacrianca/imagens/produtos/media/jogo-de-cartas-uno-original-mattel-664c9bd44a140.png",
 
     players: "2-10",
     duration: "20 min",
@@ -106,7 +106,7 @@ export const games: Game[] = [
       "Trabalhe em equipe para salvar o mundo de epidemias.",
 
     image:
-      "https://images.unsplash.com/photo-1606503153255-59d8b8b4c0f5?w=1200",
+      "https://m.media-amazon.com/images/I/51WxZyayBfL._AC_SX569_.jpg",
 
     players: "2-4",
     duration: "45 min",
