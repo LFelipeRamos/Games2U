@@ -63,6 +63,19 @@ npm run build
 npm run start
 ```
 
+## 📂 Documentos do Projeto
+
+- [Requisitos Funcionais (RF)](./RequisitosDeUsuario/RF.md)
+- [Requisitos Não Funcionais (RNF)](./RequisitosDeUsuario/RNF.md)
+- [Histórias de Usuário](./RequisitosDeUsuario/HistoriasUsuario.md)
+- [Registro de uso de IA generativa](./RequisitosDeUsuario/Prompt-Historias-Usuarios.pdf)
+- [Inspeção de Requisitos - Defeitos Encontrados](./RequisitosDeUsuario/Inspeção%20dos%20Requisitos_Defeitos%20Encontrados.pdf)
+- [Diagrama de Casos de Uso](./RequisitosDeSistema/DiagramasUML/Casos_de_Uso)
+- [Descrições dos Casos de Uso](./RequisitosDeSistema/DiagramasUML/Descricoes)
+- [Diagramas de Atividade](./RequisitosDeSistema/DiagramasUML/DiagramasAtividade)
+- [Branch.md - Integração Contínua (Atividade 09)](./branch.md)
+- [Protótipo / Front-end](./Prototipo)
+
 ## 👥 Integrantes
 
 <table>
