@@ -46,6 +46,12 @@ Escolas e espaços educativos
 - TypeScript + NodeJS
 - SCSS
 
+## 🎮 Acesse o Protótipo
+
+🔗 **[https://games2you.vercel.app/](https://games2you.vercel.app/)**
+
+O front-end do projeto está disponível online e pode ser acessado diretamente pelo link acima.
+
 ### 🚀 Como rodar
 Obs.: Certifique-se que o NodeJS está instalado
 
